@@ -1,11 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-
         int[] intArray = new int[]{1, 2, 3};
         double[] doubles = {1.57, 7.654, 9.986};
         char[] chars = {'a', 'b', 'c', 'd', 'e', 'f'};
-
         for (int i = 0; i < doubles.length; i++) {
             if (i > 0) {
                 System.out.print(", ");
@@ -25,7 +23,6 @@ public class Main {
         int[] intArray1 = new int[]{1, 2, 3};
         double[] doubles1 = {1.57, 7.654, 9.986};
         char[] chars1 = {'a', 'b', 'c', 'd', 'e', 'f'};
-
         for (int i = intArray1.length - 1; i >= 0; i--) {
             System.out.print(intArray1[i]);
             if (i > 0) {
